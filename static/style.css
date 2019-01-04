@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+
+body {
+    position: relative; 
+    height: 100vh;
+    font-family: 'Sarabun', sans-serif;
+    max-width:70%;
+    margin:0 auto;
+}
+
+#about {padding-top:100px;height:100%;}
+#projects {padding-top:100px;height:100%;}
+#contact {padding-top:100px;height:100%;}
