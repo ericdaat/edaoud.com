@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Sarabun');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 
 body {
     position: relative; 
     height: 100vh;
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* Avatar */
@@ -13,6 +13,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 /* Class for every section */
@@ -20,6 +21,7 @@ body {
 	min-height:100%;
 	max-width:70%;
 	padding-top:100px;
+	margin-bottom: 50px;
 }
 
 /* Class for home section */
