@@ -21,29 +21,41 @@
     gtag('config', 'UA-105599779-2');
   </script>
 
+  <script src="static/script.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="#">Eric Daoud</a>
+  <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-    <li class="nav-item"><a class="nav-link" href="https://ericdaat.github.io">Blog</a></li>
-  </ul>
-  
-  <ul class="navbar-nav">
-    <li class="nav-item"><a class="nav-link" href="https://twitter.com/ericdaoud"><i class="nav-link fab fa-twitter"></i></a></li>
-    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/ericdaoud/"><i class="nav-link fab fa-linkedin-in"></i></a></li>
-    <li class="nav-item"><a class="nav-link" href="https://github.com/ericdaat"><i class="nav-link fab fa-github"></i></a></li>
-    <li class="nav-item"><a class="nav-link" href="https://500px.com/ericda"><i class="nav-link fab fa-500px"></i></a></li>
-    <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/user/ericmusic13"><i class="nav-link fab fa-youtube"></i></a></li>
-  </ul>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Eric Daoud</a>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://ericdaat.github.io">Blog</a></li>
+    </ul>
+    
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="https://twitter.com/ericdaoud"><i class="nav-link fab fa-twitter"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/ericdaoud/"><i class="nav-link fab fa-linkedin-in"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="https://github.com/ericdaat"><i class="nav-link fab fa-github"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="https://500px.com/ericda"><i class="nav-link fab fa-500px"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/user/ericmusic13"><i class="nav-link fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
 </nav>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   
 <div id="home" class="container-fluid">
   <img src="static/eric.jpg" class="avatar">
@@ -187,7 +199,7 @@
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
         <div class="card-body">
-          <table class="table table-sm table-borderless">
+          <table class="table table-responsive-sm table-borderless">
               <tbody>
                 <tr>
                   <td>Recommender Systems</td>
@@ -225,7 +237,7 @@
       </div>
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
         <div class="card-body">
-         <table class="table table-sm table-borderless">
+         <table class="table table-responsive-sm table-borderless">
               <tbody>
                 <tr>
                   <td>SQL Databases</td>
@@ -264,7 +276,7 @@
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
           <div class="card-body">
-           <table class="table table-sm table-borderless">
+           <table class="table table-responsive-sm table-borderless">
                 <tbody>
                   <tr>
                     <td>Data Viz</td>
@@ -289,7 +301,7 @@
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
           <div class="card-body">
-           <table class="table table-sm table-borderless">
+           <table class="table table-responsive-sm table-borderless">
                 <tbody>
                   <tr>
                     <td>AWS</td>
