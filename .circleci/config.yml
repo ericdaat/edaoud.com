@@ -1,11 +1,12 @@
 version: 2.1
 orbs:
-  aws-s3: circleci/aws-s3@1.0.0
+  aws-s3: circleci/aws-s3@1.0.6
 
 jobs:
   build:
     docker:
       - image: 'circleci/python:latest'
+
     steps:
       - checkout
       - run: mkdir bucket && echo "lorum ipsum" > bucket/build_asset.txt
